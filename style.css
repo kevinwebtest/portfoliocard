@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.main {
+    font-family: Inter, Arial;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 30px solid #23252C;
+    background-color: #23252C;
+}
+
+.box{
+    width: 500px;
+    background-color: #1A1B21;
+    outline: 30px solid #23252C;
+    border-radius: 10px
+}
+
+.header {
+    background-color: #1A1B21;
+    text-align: center;
+}
+
+.body {
+    background-color: #1A1B21;
+    padding: 35px;
+}
+
+.footer {
+    background-color: #161619;
+    color: #918E9B;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.text {
+    color: #DCDCDC;
+}
+
+.topics {
+    color: #F5F5F5;
+}
+
+.profile {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 26px 18px 22px;
+    margin: 20px;
+
+    width: 172px;
+    height: 51px;
+    left: 226px;
+    top: 702px;
+
+    border-radius: 6px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#name {
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#title {
+    color: #F3BF99;
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+
+#website {
+    font-weight: 400;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+#email {
+    background-color: white;
+    color: #374151;
+}
+
+
+#linkedin {
+    background-color: #5093E2;
+    color: black;
+}
+
+a img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 21px;
+
+    width: 30px;
+    height: 32px;
+    background-color: #918E9B;
+    margin-left: 20px;
+    
+    /* gray/300 */
+    border: 1px solid #918E9B;
+
+    /* shadow/sm */
+    border-radius: 6px;
+}
+
+.additional{
+    color: rgba(192, 192, 192, 40%);
+}
